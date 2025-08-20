@@ -1,0 +1,29 @@
+SCN_ID,Title,Reqs
+SCN-LOGIN-01,Valid login,REQ-001
+SCN-LOGIN-02,Invalid login,REQ-002
+SCN-LOGIN-03,Forgot password,REQ-003
+SCN-LOGIN-04,Logout,REQ-004
+SCN-LOGIN-05,Invalid login,REQ-002
+SCN-LOGIN-06,Invalid login,REQ-002
+SCN-EM-07,Add Employee,REQ-005
+SCN-EM-08,Mandatory field validation,REQ-006
+SCN-EM-09,Prevent duplicate Employee IDs,REQ-007
+SCN-EM-10,Edit Employee,REQ-008
+SCN-EM-11,Edit Employee,REQ-008
+SCN-EM-12,Search Employee,REQ-009
+SCN-EM-13,Employee List display,REQ-010
+SCN-USER-14,Create system user linked to employee,"REQ-011, REQ-012"
+SCN-USER-15,Unique username,REQ-013
+SCN-USER-16,Password rules,REQ-014
+SCN-USER-17,Enable/disable user,REQ-015
+SCN-USER-18,Display user list,REQ-016
+SCN-ROLE-19,Admin full access,REQ-017
+SCN-ROLE-20,ESS restricted from Admin,REQ-018
+SCN-ROLE-21,ESS view/update own profile,REQ-019
+SCN-ROLE-22,Supervisor access,REQ-020
+SCN-VAL-23,Required fields,REQ-021
+SCN-VAL-24,Prevent invalid data save,REQ-025
+SCN-VAL-25,Data format validation,REQ-022
+SCN-VAL-26,Error message clarity,REQ-023
+SCN-VAL-27,Trim spaces,REQ-024
+SCN-VAL-28,Prevent invalid data save,REQ-025

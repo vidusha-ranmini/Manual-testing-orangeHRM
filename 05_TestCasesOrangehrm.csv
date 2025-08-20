@@ -1,0 +1,68 @@
+Project Name:,orangeHRM,Test Designed By:,Vidusha Ranmini,,,,,,
+Module Name:,,Test Designed Date:,8/8/2025,,,,,,
+Release Version:,,,,,,,,,
+,,,,,,,,,
+TC_ID,Title,Preconditions,Steps,TestData,Expected Result,Actual Result,Priority,Type,Reqs
+SCN-LOGIN-01,Valid login with username/ password,User registration,"1.Enter username  
+2. Enter Password
+ 3. Click login ",username=Admin; password=admin123,Redirect into admin dashboard,Redirect into admin dashboard,High,Positive,REQ-001
+SCN-LOGIN-02,Login with invalid username/ password,User registration,"1.Enter username  
+2. Enter invalid Password 
+3. Click login ",username=Admin; password=123,"Show error message ; ""Invalid credentials""","Show error message ; ""Invalid credentials""",High,Negative,REQ-002
+SCN-LOGIN-03,Verify Forgot password function,User registration,"1.Click ""Forgot your password?"" 
+2. Enter username 
+3Click reset password button.",username=Admin,Show successfully massage; Password reset link goes via email,Show successfully massage; Password reset link goes via email,High,Positive,REQ-003
+SCN-LOGIN-04,Verify Logout function,User logged,"1.Click profile picture 
+2. click ""logout""",,Redirect user login page,Redirect user login page,High,Positive,REQ-004
+SCN-LOGIN-05,System behaviour in username/password are blanked,User registration,Click login button,,Show username and password fields should be required,Show username and password fields should be required,High,Positive,REQ-002
+SCN-LOGIN-06,Verify system behavior with case sensitivity in username.User registration,,"1.Enter username as admin 
+2. Enter password 
+3. Click login button",username=admin; password=123,Redirect into admin dashboard,Redirect into admin dashboard,Medium,Positive,REQ-002
+SCN-EM-07,Verify that an admin can add a new employee,User logged,"1.Go to PIM  section 
+2. Click Add button 
+3. Add employee details 
+4. Click save button","first name= Vidusha;
+ Middle name=Ranmini; 
+Last name=Perera; 
+employee id=0510;
+ Username=Vidusha;
+ Password=1234@1234v; 
+confirm password=1234@1234v","Show successfully massage
+Redirect into Employee profile","Show successfully massage
+Redirect into Employee profile",High,Positive,REQ-005
+SCN-EM-08,Verify system validation when mandatory fields are not filled in the Add Employee form.,User logged,"1.Go to PIM  section 
+2. Click Add button 
+3. Click save button",,Show Employee first name and last name is required,Show Employee first name and last name is required,High,Positive,REQ-006
+SCN-EM-09,Verify that the system prevents duplicate Employee IDs.,Added employee details,"1.Go to PIM section
+2.Click Add button
+3.Add existing employee details
+4. Click save button"," first name= Vidusha;
+ Middle name=Ranmini; 
+Last name=Perera; 
+employee id=0455;
+ ","Show message ""Employee Id already exists""","Show message ""Employee Id already exists""",High,Positive,REQ-007
+SCN-EM-10,Verify that an admin can edit an existing employee’s details.,Added employee details,"1.Go to PIM section
+2.Go to employee list
+3. Click edit button
+4. Edit details
+5. Click Save buttton",first name=Adfvgg,Show successfully  update message,Show successfully  update message,High,Positive,REQ-008
+SCN-EM-11,Verify that an admin can assign a supervisor to an employee.,Existing suprvisers,"1.Go to PIM section
+2.Go to employee list
+3. Click employee edit 
+4. Go to Report to section
+5. Click Add Supervisor button
+6.Enter name and report method
+7.Click save button","Name=yedghjb1 ru84 90jsnd
+Reporting Method=direct",Show successfully  save message,Show successfully  save message,Medium,Positive,REQ-012
+SCN-EM-12,"Verify searching for employees by name, ID, or other filters.",Existing employee details,"1. Go to PIM section
+2. Enter details
+3. Click search button",Employee Name=Alex MDN Tst,Show relevant employee detail,Show relevant employee detail,Medium,Positive,REQ-009
+SCN-EM-13,Verify that employee records are displayed correctly in the Employee List.,Existing employee details,Go to PIM section,,Show employee details list,Show employee details list,High,Positive,REQ-010
+SCN-USER-14,Verify that an admin can create a system user linked to an employee.,User logged,"1.Go to Admin  section 
+2. Click Add button 
+3. Add user details 
+4. Click save button","user role=Admin 
+employee name=Siddiq23 Husain23 Tashfeen23
+status=enabled
+username=Siddiq23
+password=abc12345","Show message ""Saved successfully""","Show message ""Saved successfully""",High,Positive,REQ-011
