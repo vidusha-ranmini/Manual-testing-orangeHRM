@@ -1,21 +1,21 @@
 
 # Manual Testing of OrangeHRM (Demo)
 
-## 📌 Overview
+##  Overview
 This repository contains the comprehensive **manual testing artifacts** for the OrangeHRM open-source demo application  
-👉 [OrangeHRM Demo](https://opensource-demo.orangehrmlive.com/)
+[OrangeHRM Demo](https://opensource-demo.orangehrmlive.com/)
 
 It demonstrates a full end-to-end QA process—from test planning through execution—covering core modules such as:
 
-- 🔐 Login & Authentication  
-- 👨‍💼 PIM (Employee Management)  
-- ⚙️ Admin (User Management)  
-- 🛡️ Role-Based Access Control (RBAC)  
-- ✅ Form Validation & Usability  
+-  Login & Authentication  
+-  PIM (Employee Management)  
+-  Admin (User Management)  
+-  Role-Based Access Control (RBAC)  
+-  Form Validation & Usability  
 
 ---
 
-## 📂 Included Artifacts
+##  Included Artifacts
 
 | File | Description |
 |------|-------------|
@@ -30,7 +30,7 @@ It demonstrates a full end-to-end QA process—from test planning through execut
 
 ---
 
-## 🚀 How to Use
+##  How to Use
 
 1. **Review the Test Plan** – Understand scope, strategy, assumptions, and risks.  
 2. **Check Requirements & RTM** – See what functionality is included and mapped.  
@@ -41,7 +41,7 @@ It demonstrates a full end-to-end QA process—from test planning through execut
 
 ---
 
-## 🎯 Why This Matters
+##  Why This Matters
 This repository is designed for **QA learning and portfolio showcase**. It highlights:
 
 - ✅ Structured QA workflow: Requirements → Scenarios → Test Cases → Execution → Reporting  
@@ -51,7 +51,7 @@ This repository is designed for **QA learning and portfolio showcase**. It highl
 
 ---
 
-📌 **Author:** Vidusha Ranmini  
-📌 **Demo Application:** [OrangeHRM Open Source](https://opensource-demo.orangehrmlive.com/)  
+ **Author:** Vidusha Ranmini  
+ **Demo Application:** [OrangeHRM Open Source](https://opensource-demo.orangehrmlive.com/)  
 
 ---
